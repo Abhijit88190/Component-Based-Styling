@@ -1,0 +1,111 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(90deg, #007bff, #0056b3);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  header p {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  /* Navigation Bar */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .navbar-nav .nav-link {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007bff;
+  }
+  
+  /* Main Content */
+  h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  p {
+    color: #555;
+    font-size: 1rem;
+  }
+  
+  button {
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card Component */
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #0056b3;
+  }
+  
+  .card-text {
+    color: #555;
+  }
+  
+  /* Footer Styling */
+  footer {
+    background-color: #333;
+    color: #ddd;
+    font-size: 0.9rem;
+    padding: 1rem 0;
+    margin-top: 2rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Modal Customizations */
+  .modal-content {
+    border-radius: 10px;
+    border: 2px solid #007bff;
+  }
+  
+  .modal-header {
+    background-color: #007bff;
+    color: white;
+    border-bottom: 2px solid #0056b3;
+  }
+  
+  .modal-footer {
+    border-top: 1px solid #eee;
+  }
+  
+  /* Smooth Scrolling Effect (if needed for custom classes) */
+  html {
+    scroll-behavior: smooth;
+  }
+  
